@@ -65,7 +65,6 @@ public class BJ_14888_연산자끼워넣기 {
 					arr[i] = j;
 					op[j]--;
 					sol(cnt+1, depth+1);
-					sol(cnt, depth+1);
 					op[j]++;
 				}
 				
